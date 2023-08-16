@@ -1,0 +1,124 @@
+/* Color scheme 5 */ 
+*::-webkit-scrollbar-thumb {
+  background-color: #67d3ef;
+}
+* {
+  scrollbar-color: #67d3ef #fff;
+}
+
+.brand-logo {
+background-image: url('../img/logo-5.png');
+}
+.pushdom {
+color: #67d3ef;
+}
+.big-icon {
+color: #67d3ef;
+}
+.citate blockquote p {
+	background: #121622;
+	color: #fff;
+}
+.mb-style-3 blockquote p:before{
+	color: #67d3ef;
+}
+.mb-style-3 blockquote{
+	box-shadow: 
+		inset 0 2px 0 rgba(103, 211, 239, 0.7), 
+		-5px -4px 25px rgba(0, 0, 0, 0.3);
+}
+.mb-style-3 blockquote p {
+	color: rgba(18, 22, 34, 0.9);
+}
+#zen {
+  fill: #67d3ef;
+}
+.triangle_down {
+  border-top: 30px solid #67d3ef;
+}
+.sub-header-title {
+  color:#121622;
+}
+.sub-header-title:before{
+  color:#67d3ef;
+}
+.post-date .post-chislo {
+  background-color: #67d3ef;
+}
+.post-date .post-mesgod {
+  background-color: #121622;
+}
+.tooltip222 span {
+  border: 4px solid #67d3ef;
+}
+#stats-donate {
+	background-color: #121622;
+}
+h3.donate-color, h5.donate-color {
+	color: #67d3ef !important;
+}
+.rwd-table tr:first-child {
+  background: #121622;
+}
+.rwd-table tr {
+  background-color: #eafbff;
+}
+.rwd-table tr:nth-child(odd):not(:first-child) {
+  background-color: #efedf5;
+}
+@media screen and (min-width: 600px) {
+  .rwd-table tr:hover:not(:first-child) {
+    background-color: #67d3ef;
+  }
+}
+.age, .pets-panel-1 {color: #121622;}
+.name {color: #67d3ef;}
+
+.subheader-pets .flaticon-pet-hotel-sign-with-a-dog-and-a-cat-under-a-roof-line,
+.subheader-pets .flaticon-pets-hotel-symbol-with-a-dog-and-a-cat-in-a-circle-with-one-star {
+color: #121622;
+}
+
+/* Light blue*/
+ .navbar-default .navbar-toggler:hover,.step:after,.number,.back-to-top:hover,.badges-hover a:hover .badge,.blog-tags a,.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a.active,.form-check-input:checked, .nav-tabs .nav-link,.btn-secondary:hover,.bg-primary, .blob-text,.blob-text2,.btn-primary:active,.btn-primary:not(:disabled):not(.disabled):active,.btn-primary.focus, .btn-primary:focus,.btn-default.focus, .btn-default:focus,.btn-primary,.btn-default, a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover, .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover, .pagination>li>a:hover,.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover,.date-category, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .spinner > div,.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover,.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover, .bg-color1,.btn:before,.contact-icon .top-icon,.nav-pills>li>a:focus, .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover, .nav-pills>li>a:hover{
+     background-color:#67d3ef!important;
+}
+.sub-header:before,.sub-header-2:before,.thanks-name,.breadcrumb-item a,.btn-outline-secondary:active,.btn-outline-secondary:focus,.btn-outline-secondary:hover,.btn-outline-primary,.slick-prev:before, .slick-next:before,blockquote:before,.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .serviceBox:hover .service-icon i, a:hover,a:focus,.alert:after, .alert:before, .navbar-default .navbar-nav>li>a:focus,ul.custom li:before,.margin-icon,.text-secondary,.social-media i,.brand,.brand i{
+     color:#67d3ef!important;
+}
+.number,.lightbox img:hover,.btn-outline-secondary:active,.btn-outline-secondary:focus,.btn-outline-secondary:hover,.btn-outline-primary,.form-select,.form-select:focus,.form-check-input, .form-check-input:checked,.alert-primary,.price-table:hover .price-wrap,.underline-effect,.content-box.home, .form-control,.service-icon img,.contact-icon,.btn-default:hover{
+     border-color:#67d3ef!important;
+}
+
+/* secondary light blue */
+#blog-sidebar .card-header,.feature-img,#elements h3.subheader,.table-striped>tbody>tr:nth-of-type(odd),.tab-content,.list-group-item,.alert-primary,.bg-light,.accordion-button.collapsed,.alert-info{
+     background-color:#eafbff!important;
+}
+
+/* light gray */
+
+.dropdown-item.active, .dropdown-item:active,.table-hover>tbody>tr:hover,.bg-info,.alert-secondary{
+	background-color:#efedf5!important;
+}
+
+/* Dark Blue */
+button.btn-primary,a.btn-primary,.number,.navbar-default .navbar-nav>li>a.active,.navbar-default .navbar-nav>li>a:hover,.post-info-single i,.social-media i:hover,.btn-outline-primary:active,.btn-outline-primary:focus,.btn-outline-primary:hover,
+.alert-secondary:before,.alert-primary,.price-plan,.price-plan-month,.text-primary,h3,.table>thead>tr>th,.service-icon i, a,.alert-info,h1,h2,.testimonial .content:before {
+     color:#121622!important;
+}
+.back-to-top, .blog-card .post-info,.btn-info,.bg-secondary,.nav-pills .nav-link.active, .nav-pills .show>.nav-link,.nav-link.active:hover,.nav-tabs .nav-link.active,.nav-tabs .nav-link:hover,.nav-tabs .nav-link:focus,.nav-tabs .nav-link.active:hover,.accordion-button:hover,.accordion-button:not(.collapsed),.btn-secondary,.btn-default:hover, #sidebar,.btn-primary:hover{
+     background-color:#121622!important;
+}
+ .btn-outline-secondary,.btn-outline-primary:active,.btn-outline-primary:focus,.btn-outline-primary:hover,
+.form-control:focus,.btn-primary.focus, .btn-primary:focus{
+     border-color:#121622!important;
+}
+
+/* Transparency */
+ 
+.bg-overlay1,
+.slideshow-image {
+     box-shadow:inset 0 0 0 1000px rgb(19 22 34 / 63%);
+}
+
+ 
