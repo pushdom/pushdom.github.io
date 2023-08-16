@@ -1,6 +1,6 @@
 ## Приют «Пушистый домосед», г.Елец
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=pushdom&label=Profile%20views&color=0e75b6&style=flat" alt="pushdom" /></p>
-<img align="right" alt="banner" src="./banner-img.jpg" width="510" height="auto" />
+<img align="right" alt="banner" src="./banner.png" width="510" height="auto" />
 
 [![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=vertical&theme=dark&quote=Люди,&ensp;будьте&ensp;гуманны!&ensp;Это&ensp;ваш&ensp;первый&ensp;долг.&ensp;К&ensp;чему&ensp;вся&ensp;ваша&ensp;мудрость&ensp;без&ensp;милосердия?&author=Жан-Жак&ensp;Руссо)](https://github.com/piyushsuthar/github-readme-quotes)
 
