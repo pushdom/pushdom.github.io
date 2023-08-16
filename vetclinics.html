@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="utf-8">
+      
+	  <meta name="robots" content="noindex, follow">
+      <meta http-equiv='cache-control' content='no-cache'> 
+      <meta http-equiv='expires' content='0'> 
+      <meta http-equiv='pragma' content='no-cache'>
+	  
+      <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <![endif]-->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <meta name="description" content="Частный приют для бездомных животных «Пушистый домосед» Елец. Ветклиники">
+	  <meta name="keywords" content="приют, бездомные животные, собаки, щенки, кошки, котята, потеряшки, помощь, Елец, ветеринарная клиника, ветеринарная аптека, Липецк">
+      <meta name="author" content="">
+      <!-- page title -->
+      <title>Пушистый домосед | Ветклиники в Ельце</title>
+      <!--[if lt IE 9]>
+      <script src="js/respond.js"></script>
+      <![endif]-->
+	  
+	  <!-- Google fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+	  <!-- Local fonts -->
+	  <link href="fonts/blogger-sans-bold/stylesheet.css" rel="stylesheet">
+	  <link href="fonts/tatiana-ctt/stylesheet.css" rel="stylesheet">
+      <!-- Icon fonts -->
+      <link href="fonts/fontawesome/css/all.min.css" rel="stylesheet" type="text/css">
+	  <link href="fonts/flaticons/flaticon.css" rel="stylesheet" type="text/css">
+      <!-- Fav icons -->
+      <link rel="shortcut icon" type="image/x-icon" href="favicons/favicon.ico">
+	  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+      <link rel="manifest" href="favicons/site.webmanifest">
+      <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#10223a">
+      <meta name="msapplication-TileColor" content="#10223a">
+      <meta name="theme-color" content="#ffffff">
+      <!-- Bootstrap core CSS -->
+      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- style CSS -->
+      <link href="css/style.css" rel="stylesheet">
+      <!-- plugins CSS -->
+      <link href="css/plugins.css" rel="stylesheet">
+      <!-- Colors CSS -->
+      <link href="styles/maincolors.css" rel="stylesheet">
+      <!-- Prefix free -->
+      <script src="js/prefixfree.min.js"></script>
+	  <!-- Switcher Only -->
+      <link rel="stylesheet" id="switcher-css" type="text/css" href="switcher/css/switcher.css" media="all">
+      <!-- END Switcher Styles -->
+
+	        <!-- Demo Examples (For Module #3) -->
+	  <link rel="alternate stylesheet" type="text/css" href="styles/maincolors.css" title="maincolors" media="all">
+      <link rel="alternate stylesheet" type="text/css" href="styles/colors2.css" title="colors2" media="all">
+	  <link rel="alternate stylesheet" type="text/css" href="styles/colors3.css" title="colors3" media="all">
+      <link rel="alternate stylesheet" type="text/css" href="styles/colors4.css" title="colors4" media="all">
+	   <link rel="alternate stylesheet" type="text/css" href="styles/colors5.css" title="colors5" media="all">
+	
+		   <!-- Global site tag (gtag.js) - Google Analytics -->
+
+<!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script> -->
+
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<script src="vendor/leaflet/leaflet.js"></script>
+
+<style>
+.leaflet-container {
+  height: 500px;
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+		}
+.leaflet-attribution-flag {
+  display: none !important;
+}
+</style>
+
+   </head>
+   <!-- ==== body starts ==== -->
+   <body id="top">
+    <!-- Start Switcher -->
+      <div class="demo_changer">
+         <div class="demo-icon">
+            <i class="fa fa-cog fa-2x"></i>
+         </div>
+         <!-- end opener icon -->
+         <div class="form_holder text-center">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="predefined_styles">
+				     <h5>Цвет шаблона</h5>
+                     <!-- MODULE #3 -->
+                     <a href="maincolors" class="styleswitch"><img src="switcher/images/maincolors.png" alt="maincolors"></a>		
+                     <a href="colors2" class="styleswitch"><img src="switcher/images/color2.png" alt="color2"></a>
+					 <a href="colors3" class="styleswitch"><img src="switcher/images/color3.png" alt="color3"></a>	
+					 <a href="colors4" class="styleswitch"><img src="switcher/images/color4.png" alt="color4"></a>	
+                     <a href="colors5" class="styleswitch"><img src="switcher/images/color5.png" alt="color5"></a>	
+                  </div>
+               </div>
+               <!-- end col -->
+            </div>
+            <!-- end row -->
+         </div>
+         <!-- end form_holder -->
+      </div>
+      <!-- end demo_changer -->
+      <!-- Preloader -->
+      <div id="preloader">
+         <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+         </div>
+      </div>
+      <!-- ===== Page Content ===== -->
+      <div class="container-fluid">
+      <!-- ===== Sidebar starts ===== -->
+      <div id="sidebar" class="split col-md-2">
+         <div class="affix-sidebar col-md-12">
+            <div class="sidebar-nav">
+             
+               <nav class="navbar container navbar-default navbar-expand-xl">
+			     <!-- Logo -->
+               <div class="brand justify-content-lg-start brand-logo">
+               </div>
+               <!-- /brand -->
+                  <div class="justify-content-lg-end">
+				   <!-- hamburger menu -->
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                     <i class="fa fa-bars" aria-hidden="true"></i>
+                     </button>
+					   </div>
+				   <!--/container-fluid-->
+					  <!-- /hamburger menu -->
+                     <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                           <li class="nav-item">
+                              <a class="nav-link" href="index.html">Главная</a>
+                           </li>
+                           <li class="nav-item dropend">
+                              <a class="nav-link dropdown-toggle" href="#" id="sub-menu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              О нас
+                              </a>
+                              <ul class="dropdown-menu " aria-labelledby="sub-menu">
+                                 <li><a class="dropdown-item" href="about.html">О приюте</a></li>
+								 <li><a class="dropdown-item disabled" href="partners.html">Наши друзья</a></li>
+                                 <li><a class="dropdown-item" href="video.html">Видео</a></li>
+                                 <li><a class="dropdown-item" href="photo.html">Фото</a></li>
+                              </ul>
+                           </li>
+						   <li class="nav-item dropend">
+                              <a class="nav-link dropdown-toggle active" href="#" id="sub-menu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Информация
+                              </a>
+                              <ul class="dropdown-menu " aria-labelledby="sub-menu">
+                                 <li><a class="dropdown-item" href="news.html">Новости</a></li>
+                                 <li><a class="dropdown-item" href="faq.html">Вопросы-Ответы</a></li>
+								 <li><a class="dropdown-item active" href="vetclinics.html">Ветклиники в Ельце</a></li>
+								 <li><a class="dropdown-item" href="zooposters.html">Зооплакаты</a></li>
+								 <li><a class="dropdown-item" href="files.html">Файлы</a></li>
+                              </ul>
+                           </li>
+						   <li class="nav-item dropend">
+                              <a class="nav-link dropdown-toggle" href="#" id="sub-menu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Питомцы
+                              </a>
+                              <ul class="dropdown-menu " aria-labelledby="sub-menu">
+                                 <li><a class="dropdown-item" href="cats.html">Кошки</a></li>
+                                 <li><a class="dropdown-item" href="dogs.html">Собаки</a></li>
+								 <li><a class="dropdown-item" href="already-home.html">Уже дома!</a></li>
+                              </ul>
+                           </li>
+						   <li class="nav-item dropend">
+                              <a class="nav-link dropdown-toggle" href="#" id="sub-menu-help" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Помощь
+                              </a>
+                              <ul class="dropdown-menu " aria-labelledby="sub-menu">
+                                 <li><a class="dropdown-item" href="help.html">Как помочь?</a></li>
+                                 <li><a class="dropdown-item" href="thanks.html">Благодарности</a></li>
+								 <li><a class="dropdown-item" href="reports.html">Отчёты</a></li>
+                              </ul>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="contact.html">Контакты</a>
+                           </li>
+						    <!--/nav-item -->
+                        </ul>
+						 <!--/navbar-nav -->
+                     </div>
+					  <!--/collapse -->
+                
+               </nav>
+			    <!--/nav -->
+            </div>
+            <!--/sidebar-nav -->
+            <div class="navbar-info d-none d-xl-block">
+               <p class="small-text"><i class="fas fa-phone margin-icon"></i>+7 (904) 219-16-43</p>
+               <p class="small-text"><a href="contact.html#anchor-map"><i class="fas fa-map-marker-alt margin-icon"></i></a>Липецкая обл., г. Елец, <br> промзона «Елецпром»</p>
+               <!--Social icons -->
+               <div class="social-media">
+                  <a href="https://vk.com/pushistyi_domosed" target="_blank" title="ВКонтакте"><i class="fab fa-vk"></i></a>
+				  <a href="https://www.youtube.com/@Domosed_Elets" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a>
+                  <a href="https://dzen.ru/pushistyjdomosed" target="_blank" title="Дзен">
+				  <i>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="20" height="20" fill-rule="nonzero" id="zen"><g fill-opacity="0" fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,256v-256h256v256z" id="bgRectangle"></path></g><g fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M46.894,23.986c0.004,0 0.007,0 0.011,0c0.279,0 0.545,-0.117 0.734,-0.322c0.192,-0.208 0.287,-0.487 0.262,-0.769c-1.004,-11.043 -9.747,-19.789 -20.791,-20.795c-0.28,-0.022 -0.562,0.069 -0.77,0.262c-0.208,0.192 -0.324,0.463 -0.321,0.746c0.174,14.676 2.11,20.673 20.875,20.878zM46.894,26.014c-18.765,0.205 -20.7,6.202 -20.874,20.878c-0.003,0.283 0.113,0.554 0.321,0.746c0.186,0.171 0.429,0.266 0.679,0.266c0.03,0 0.061,-0.001 0.091,-0.004c11.044,-1.006 19.787,-9.751 20.79,-20.795c0.025,-0.282 -0.069,-0.561 -0.262,-0.769c-0.193,-0.208 -0.462,-0.311 -0.745,-0.322zM22.823,2.105c-11.009,1.035 -19.724,9.779 -20.723,20.792c-0.025,0.282 0.069,0.561 0.262,0.769c0.189,0.205 0.456,0.321 0.734,0.321c0.004,0 0.008,0 0.012,0c18.703,-0.215 20.634,-6.209 20.81,-20.875c0.003,-0.283 -0.114,-0.555 -0.322,-0.747c-0.21,-0.192 -0.491,-0.286 -0.773,-0.26zM3.107,26.013c-0.311,-0.035 -0.555,0.113 -0.746,0.321c-0.192,0.208 -0.287,0.487 -0.262,0.769c0.999,11.013 9.715,19.757 20.724,20.792c0.031,0.003 0.063,0.004 0.094,0.004c0.25,0 0.492,-0.094 0.678,-0.265c0.208,-0.192 0.325,-0.464 0.322,-0.747c-0.176,-14.665 -2.106,-20.659 -20.81,-20.874z"></path></g></g></svg>
+                  </i>
+				  </a>
+                  <a href="mailto:aipova.nadia@yandex.ru" title="Эл.почта"><i class="fas fa-envelope"></i></a>
+               </div>
+            </div>
+            <!-- /navbar-info -->
+         </div>
+         <!-- /affix-sidebar  -->
+      </div>
+      <!-- ===== / sidebar ends ===== -->
+      <div id="content" class="col-lg-10 split"><!-- ===== NEWS page starts  ===== -->
+<div class="content-wrapper">
+   <!-- page header -->
+   <div class="page-header bg-overlay1 container-fluid" >
+      <div class="col-xl-6 offset-xl-3" data-aos="fade-down" data-aos-delay="100">
+         <h1>Ветклиники в Ельце</h1>
+         <!-- /breadcrumb -->
+         <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+               <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+			   <li class="breadcrumb-item">Информация</li>
+               <li class="breadcrumb-item active" aria-current="page">Ветклиники в Ельце</li>
+            </ol>
+         </nav>
+         <!-- /breadcrumb -->
+      </div>
+      <!-- /col-xl -->
+        <svg class="svg-divider2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+					<path fill="#ffffff" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
+	c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
+	c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
+				</svg>      
+   </div>
+   <!-- /page-header ends -->
+   <div class="content-box">
+
+<section class="inside-wrapper container">
+
+<div class="row h-10 gy-5">
+
+  <!-- Card Start -->
+  <div class="card shadow" data-aos="fade-right" data-aos-delay="100">
+    <div class="row">
+      <div class="col-md-7 px-3">
+        <div class="card-body px-6">
+          <h4 class="card-title">«Добрый доктор»</h4>
+		  <span class="sub-header-med-1">ветеринарная клиника и ветеринарная аптека</span>
+		  <dl class="row vetclinic-adress">
+             <dt class="col-sm-4">Адрес:</dt>
+             <dd class="col-sm-8">ул. Октябрьская, д.34</dd>
+			 <dt class="col-sm-4">Телефоны:</dt>
+             <dd class="col-sm-8">+7 (904) 686-84-75<br>+7 (951) 304-23-48 (аптека)</dd>
+			 <dt class="col-sm-4">Часы работы:</dt>
+             <dd class="col-sm-8">будни 9.00 - 18.00, сб 9.00 - 15.00, вс - вых.</dd>
+			 <dt class="col-sm-4">Сайт:</dt>
+             <dd class="col-sm-8"><a href="https://zoo-doctor.ucoz.ru/" target="_blank" title="Добрый доктор">zoo-doctor.ucoz.ru</a></dd>
+			 <dt class="col-sm-4">ВК:</dt>
+             <dd class="col-sm-8"><a href="https://vk.com/zoovetyelets" target="_blank" title="ЗооВетеринарный центр @Добрый доктор@">vk.com/zoovetyelets</a></dd>
+		  </dl>
+		  <p class="card-text">
+            В ветклинике лечат не только кошек, собак и сельхозживотных, но и грызунов. Осуществляется выезд на дом.<br>
+			Приём анализов в пятницу и субботу в утренние часы на тощак.
+          </p>
+        </div>
+      </div>
+      <!-- Carousel start -->
+      <div class="col-md-5">
+        <div id="carouselExampleSlides1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleSlides1" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleSlides1" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleSlides1" data-bs-slide-to="2"></li>
+
+          </ol>
+          <div class="carousel-inner">
+			<div class="carousel-item active">
+              <a class="image-mp" href="img/vetclinics/dobry-doctor.jpg" title="«Добрый доктор»">
+			  <img class="d-block img-rounded img-fluid" src="img/vetclinics/dobry-doctor.jpg" alt="">
+			  </a>
+            </div>
+            <div class="carousel-item">
+              <a class="image-mp" href="img/vetclinics/dobry-doctor-1.jpg" title="«Добрый доктор»">
+			  <img class="d-block img-rounded img-fluid" src="img/vetclinics/dobry-doctor-1.jpg" alt="">
+			  </a>
+            </div>
+            <div class="carousel-item">
+              <a class="image-mp" href="img/vetclinics/dobry-doctor-2.jpg" title="«Добрый доктор»">
+			  <img class="d-block img-rounded img-fluid" src="img/vetclinics/dobry-doctor-2.jpg" alt="">
+			  </a>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleSlides1" role="button" data-bs-target="#carouselExampleSlides1" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Пред.</span>
+  </a>
+            <a class="carousel-control-next" href="#carouselExampleSlides1" role="button" data-bs-target="#carouselExampleSlides1" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">След.</span>
+  </a>
+          </div>
+        </div>
+		
+		<div class="d-block d-flex justify-content-end mt-3">
+		<img class="d-block img-rounded img-fluid" src="img/vetclinics/dobry-doctor-logo.jpg" width="100" alt="">
+		</div>
+
+      </div>
+      <!-- End of carousel -->
+
+    </div>
+  </div>
+  <!-- End of card -->
+
+
+  <!-- Card Start -->
+  <div class="card shadow" data-aos="fade-left" data-aos-delay="100">
+    <div class="row">
+      <div class="col-md-7 px-3">
+        <div class="card-body px-6">
+          <h4 class="card-title">Елецкая районная станция по борьбе с болезнями животных</h4>
+		  <span class="sub-header-med-2">ветеринарная клиника</span>
+		  <dl class="row vetclinic-adress">
+             <dt class="col-sm-4">Адрес:</dt>
+             <dd class="col-sm-8">ул. Пожарная, д.2А</dd>
+			 <dt class="col-sm-4">Телефоны:</dt>
+             <dd class="col-sm-8">8 (47467) 6-41-60<br>8 (47467) 6-41-90</dd>
+			 <dt class="col-sm-4">Часы работы:</dt>
+             <dd class="col-sm-8">пн-пт 8.00 - 17.00, сб-вс 8.00 - 16.00</dd>
+			 <dt class="col-sm-4">Сайт:</dt>
+             <dd class="col-sm-8"><a href="http://www.vetlipetsk.ru/?id=208&option=com_content&view=article" target="_blank" title="Елецкая районная станция по борьбе с болезнями животных">www.vetlipetsk.ru</a></dd>
+			 <dt class="col-sm-4">ВК:</dt>
+             <dd class="col-sm-8"><a href="https://vk.com/public89812579" target="_blank" title="Елецкая СББЖ. Ветеринарная клиника на Пожарной 2а">vk.com/public89812579</a></dd>
+		  </dl>
+		  <p class="card-text">
+            В ветклинике можно сделать УЗИ и рентген (по записи). Осуществляется выезд на дом.
+          </p>
+        </div>
+      </div>
+      <!-- Carousel start -->
+      <div class="col-md-5">
+        <div id="carouselExampleSlides2" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleSlides2" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleSlides2" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleSlides2" data-bs-slide-to="2"></li>
+
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a class="image-mp" href="img/vetclinics/egspbbzh.jpg" title="Елецкая районная станция по борьбе с болезнями животных">
+			  <img class="d-block img-rounded img-fluid" src="img/vetclinics/egspbbzh.jpg" alt="">
+			  </a>
+            </div>
+            <div class="carousel-item">
+              <a class="image-mp" href="img/vetclinics/egspbbzh-1.jpg" title="Елецкая районная станция по борьбе с болезнями животных">
+			  <img class="d-block img-rounded img-fluid" src="img/vetclinics/egspbbzh-1.jpg" alt="">
+			  </a>
+            </div>
+            <div class="carousel-item">
+              <a class="image-mp" href="img/vetclinics/egspbbzh-2.jpg" title="Елецкая районная станция по борьбе с болезнями животных">
+			  <img class="d-block img-rounded img-fluid" src="img/vetclinics/egspbbzh-2.jpg" alt="">
+			  </a>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleSlides2" role="button" data-bs-target="#carouselExampleSlides2" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Пред.</span>
+  </a>
+            <a class="carousel-control-next" href="#carouselExampleSlides2" role="button" data-bs-target="#carouselExampleSlides2" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">След.</span>
+  </a>
+          </div>
+        </div>
+      </div>
+      <!-- End of carousel -->
+    </div>
+  </div>
+  <!-- End of card -->
+
+
+  <!-- Card Start -->
+  <div class="card shadow" data-aos="fade-right" data-aos-delay="100">
+    <div class="row">
+      <div class="col-md-7 px-3">
+        <div class="card-body px-6">
+          <h4 class="card-title">«СиЛаВет»</h4>
+		  <span class="sub-header-med-3">ветеринарный кабинет и ветеринарная аптека</span>
+		  <dl class="row vetclinic-adress">
+             <dt class="col-sm-4">Адрес:</dt>
+             <dd class="col-sm-8">ул. Коммунаров, д.59</dd>
+			 <dt class="col-sm-4">Телефоны:</dt>
+             <dd class="col-sm-8">+7 (905) 681-50-10<br>+7 (952) 592-88-92</dd>
+			 <dt class="col-sm-4">Часы работы:</dt>
+             <dd class="col-sm-8">пн-пт 9.00 - 17.00, сб-вс 9.00 - 14.00</dd>
+			 <dt class="col-sm-4">Сайт:</dt>
+             <dd class="col-sm-8">-</dd>
+		  </dl>
+		  <p class="card-text">
+            В ветклинике врач хорошо стерилизует и кастрирует животных. Остаётся маленький шов.
+          </p>
+        </div>
+      </div>
+      <!-- Carousel start -->
+      <div class="col-md-5">
+        <div id="carouselExampleSlides3" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleSlides3" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleSlides3" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleSlides3" data-bs-slide-to="2"></li>
+
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a class="image-mp" href="img/vetclinics/silavet.jpg" title="«СиЛаВет»">
+			  <img class="d-block img-rounded img-fluid" src="img/vetclinics/silavet.jpg" alt="">
+			  </a>
+            </div>
+            <div class="carousel-item">
+              <a class="image-mp" href="img/vetclinics/silavet-1.jpg" title="«СиЛаВет»">
+			  <img class="d-block img-rounded img-fluid" src="img/vetclinics/silavet-1.jpg" alt="">
+			  </a>
+            </div>
+            <div class="carousel-item">
+              <a class="image-mp" href="img/vetclinics/silavet-2.jpg" title="«СиЛаВет»">
+			  <img class="d-block img-rounded img-fluid" src="img/vetclinics/silavet-2.jpg" alt="">
+			  </a>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleSlides3" role="button" data-bs-target="#carouselExampleSlides3" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Пред.</span>
+  </a>
+            <a class="carousel-control-next" href="#carouselExampleSlides3" role="button" data-bs-target="#carouselExampleSlides3" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">След.</span>
+  </a>
+          </div>
+        </div>
+      </div>
+      <!-- End of carousel -->
+    </div>
+  </div>
+  <!-- End of card -->
+
+<div class="shadow p-3 mb-5 bg-body rounded">ВЕТЕРИНАРНЫЕ КЛИНИКИ В ЛИПЕЦКЕ И ЛИПЕЦКОЙ ОБЛАСТИ СМОТРИТЕ <a href="https://www.veterinarka.ru/vetclinic/lipeckaya-oblast.html" target="_blank" title="Ветклиники"  class="text-danger"><span>ЗДЕСЬ</span> <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+
+</div>
+<!-- /row -->
+
+</section>
+      <!-- /section ends-->
+
+      <!-- map -->
+      <div class="col-md-12 res-mt-5"><a name=""></a>
+         <div id='map'></div>
+      </div>
+
+<script>
+	var map = L.map('map').setView([52.6170992, 38.5048669], 13);
+
+	L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+	}).addTo(map);
+
+	var LeafIcon = L.Icon.extend({
+		options: {
+			
+			iconSize:     [64, 64],
+			shadowSize:   [50, 64],
+			iconAnchor:   [22, 64],
+			popupAnchor:  [-3, -76]
+		}
+	});
+
+	var blueIcon = new LeafIcon({iconUrl: 'img/vetclinics/marker-blue.png'});
+	var redIcon = new LeafIcon({iconUrl: 'img/vetclinics/marker-red.png'});
+	var greenIcon = new LeafIcon({iconUrl: 'img/vetclinics/marker-green.png'});
+
+	var mBlue = L.marker([52.609969, 38.499520], {icon: blueIcon}).bindPopup('<b>«Добрый доктор»</b><br>ветеринарная клиника и ветеринарная аптека<br>ул. Октябрьская, д.34').addTo(map);
+	var mRed = L.marker([52.618226, 38.512491], {icon: redIcon}).bindPopup('<b>Елецкая районная станция по борьбе с болезнями животных</b><br>ветеринарная клиника<br>ул. Пожарная, д.2А').addTo(map);
+	var mGreen = L.marker([52.626412, 38.480001], {icon: greenIcon}).bindPopup('<b>«СиЛаВет»</b><br>ветеринарный кабинет и ветеринарная аптека<br>ул. Коммунаров, д.59').addTo(map);
+
+</script>
+
+<!-- /map-->
+
+   </div>
+   <!-- /content-box -->
+</div>
+<!-- / content-wrapper -->
+</div>
+<!-- /content -->
+ <!-- Go To Top Link -->
+            <div class="d-none d-lg-block d-xl-block">
+               <a href="#top" class="back-to-top blob1"><i class="fa fa-angle-up"></i></a>
+            </div>
+			</div>
+      <!-- /container-fluid -->
+      <!-- Bootstrap core & Jquery -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+	  <!-- <script src="vendor/bootstrap/js/bootstrap.min.js"></script> -->
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <!-- Custom Js -->
+      <script src="js/custom.js"></script>	  
+      <script src="js/plugins.js"></script>
+	   <!-- Bootstrap Select Tool (For Module #4) -->
+<script src="switcher/js/bootstrap-select.js"></script>
+<!-- All Scripts & Plugins -->
+<script src="switcher/js/dmss.js"></script>
+
+<!-- Open Street maps -->
+<!-- <script src="js/map.js"></script> -->
+
+   </body>
+</html>
