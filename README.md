@@ -1,7 +1,7 @@
 ## Приют «Пушистый домосед», г.Елец
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=pushdom&label=Profile%20views&color=0e75b6&style=flat" alt="pushdom" /></p>
 
-[![Vkontakte Badge](https://img.shields.io/badge/-pushistyi_domosed-0077FF?style=flat-square&labelColor=0077FF&logo=vk&logoColor=white&link=https://vk.com/pushistyi_domosed)](https://vk.com/pushistyi_domosed) [![YouTube Badge](https://img.shields.io/badge/-@Domosed_Elets-c4302b?style=flat-square&labelColor=c4302b&logo=youtube&logoColor=white&link=https://www.youtube.com/channel/UCjiEjpdp4AE5dJinlYwhU8A)](https://www.youtube.com/channel/UCjiEjpdp4AE5dJinlYwhU8A)
+[![Vkontakte Badge](https://img.shields.io/badge/-pushistyi_domosed-0077FF?style=social-square&labelColor=0077FF&logo=vk&logoColor=white&link=https://vk.com/pushistyi_domosed)](https://vk.com/pushistyi_domosed) [![YouTube Badge](https://img.shields.io/badge/-@Domosed_Elets-c4302b?style=social-square&labelColor=c4302b&logo=youtube&logoColor=white&link=https://www.youtube.com/channel/UCjiEjpdp4AE5dJinlYwhU8A)](https://www.youtube.com/channel/UCjiEjpdp4AE5dJinlYwhU8A)
 
 <img align="right" alt="banner" src="./banner.png" width="510" height="auto" />
 
