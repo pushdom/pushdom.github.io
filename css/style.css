@@ -2781,92 +2781,11 @@ i.fa.fa-heart {
     transform: scale( .75 );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 hr.style0 {
   background-color: #FAB005;
   border: none;
   height: 4px;
 }
-
-
-/*
-.badge-date {
-    display: inline-block;
-    padding: .35em .65em;
-    font-size: 1.0em;
-    font-weight: 700;
-    line-height: 1;
-    color: #fff;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: .25rem;
-}
-*/
-
-/*
-.post-date {
-  display: flex;
-  max-width: 260px;
-  border-radius: 10px;
-  position: relative;
-  margin: 0;
-  transition: 0.3s all ease-in-out;
-}
-.post-date > div {
-  padding: 5px 10px;
-  transition: 0.3s all ease-in-out;
-  display: flex;
-  align-items: center;
-}
-.post-date .post-chislo {
-  background-color: #000000;
-  color: #ffffff;
-  font-size: 25px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  box-shadow: 5px 0px 12px -4px rgba(0, 0, 0, 0.5);
-  z-index: 1;
-}
-.post-date .post-mesgod {
-  background-color: #003B67;
-  color: #ffffff;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  text-align: center;
-}
-.post-date .post-badge {
-  position: absolute;
-  color: #003B67;
-  background-color: #ffffff;
-  box-shadow: inset 0px 0px 6px 6px #E0E0E0;
-  font-weight: bold;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  padding: 5px;
-  font-size: 20px;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1.5px solid #000000;
-  top: -10px;
-  left: -10px;
-  z-index: 2;
-}
-*/
-
 
 .videoimg {
   position: relative;
@@ -2887,21 +2806,6 @@ hr.style0 {
   cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .card-block {
     font-size: 1em;
     position: relative;
@@ -2911,15 +2815,6 @@ hr.style0 {
     border-top: 1px solid rgba(34, 36, 38, .1);
     box-shadow: none;   
 }
-/* .card {
-    font-size: 1em;
-    overflow: hidden;
-    padding: 5;
-    border: none;
-    border-radius: .28571429rem;
-    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
-    margin-top:20px;
-} */
 
 /* ВЕТКЛИНИКИ КАРУСЕЛЬ */
 .carousel-indicators li {
@@ -3146,7 +3041,9 @@ a .yt-sub span {
     height: 32px;
     width: 32px;
 }
-
+.rwd-table td[data-type=summa] {
+  font-weight: bold;
+}
 
 /* ===========================
  СТАТИСТИКА
@@ -3303,11 +3200,6 @@ transform: translateY(-50%) translateX(-50%);
 }
 */
 
-
-
-
-
-
 /* Styles for dialog window */
 .pet-dialog {
 	background: white;
@@ -3450,8 +3342,3 @@ p.poetry-author {
   text-align: right;
   font-size:0.9em;
 }
-
-
-
-
-
