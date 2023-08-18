@@ -2599,6 +2599,16 @@ margin-left: 70px;
   line-height: 0;
   margin: 30px auto 0;
 }
+.triangle_down_anketa {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #198754;
+  font-size: 0;
+  line-height: 0;
+  margin: -10px auto 10px;
+}
 @-moz-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     -moz-transform: translateY(0);
