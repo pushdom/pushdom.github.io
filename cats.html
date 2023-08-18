@@ -61,7 +61,8 @@
       <link rel="alternate stylesheet" type="text/css" href="styles/colors4.css" title="colors4" media="all">
 	   <link rel="alternate stylesheet" type="text/css" href="styles/colors5.css" title="colors5" media="all">
 	
-		   <!-- Global site tag (gtag.js) - Google Analytics -->
+		   <!-- reCAPTCHA - Google -->
+	 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
    </head>
    <!-- ==== body starts ==== -->
    <body id="top">
@@ -452,7 +453,7 @@
                <!-- Form Starts -->
                <div id="contact_form">
                   
-				  <form id="my-form" action="https://formspree.io/f/xgejaqqd" method="POST">
+				  <form id="my-form" action="https://formspree.io/f/xeqbgjlz" method="POST">
 				  
 				  <div class="form-group">
 					 <!-- row -->
@@ -471,15 +472,15 @@
                         </div>
 						<div class="col-md-12 mt-2">
                            <label>Состав семьи (живёте с родителями? вдвоём с супругом(ой)? есть ли дети? какого возраста?)</label>
-                           <input type="text" name="subject" class="form-control input-field"> 
+                           <input type="text" name="Состав семьи" class="form-control input-field"> 
                         </div>
 						<div class="col-md-12 mt-2">
                            <label>Условия проживания (квартира/частный дом; собственное/съёмное жильё)</label>
-                           <input type="text" name="subject" class="form-control input-field"> 
+                           <input type="text" name="Условия проживания" class="form-control input-field"> 
                         </div>
 						<div class="col-md-12 mt-2">
                            <label>Где будет жить животное? (в доме, в вольере, в будке)</label>
-                           <input type="text" name="subject" class="form-control input-field"> 
+                           <input type="text" name="Где будет жить животное" class="form-control input-field"> 
                         </div>
 						<div class="col-md-12 mt-2">
                            <label>Есть ли другие животные в доме? Если есть, то какие?</label>
@@ -564,6 +565,40 @@
 <script src="switcher/js/bootstrap-select.js"></script>
 <!-- All Scripts & Plugins -->
 <script src="switcher/js/dmss.js"></script>
+
+<script>
+    var form = document.getElementById("my-form");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        if (response.ok) {
+          status.innerHTML = "Спасибо за Вашу Анкету!";
+          form.reset()
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+            } else {
+              status.innerHTML = "Ой! Возникла проблема с отправкой Анкеты"
+            }
+          })
+        }
+      }).catch(error => {
+        status.innerHTML = "Ой! Возникла проблема с отправкой Анкеты"
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>
+
 
    </body>
 </html>
