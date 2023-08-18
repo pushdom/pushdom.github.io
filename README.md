@@ -32,6 +32,6 @@
 - Параллаксная прокрутка <a href="https://jarallax.nkdev.info/" target="_blank">Jarallax</a>
 - Анимированные элементы при прокрутке <a href="https://michalsnik.github.io/aos/" target="_blank">AOS</a>
 - Карты <a href="https://leafletjs.com/" target="_blank">Leaflet</a>
-- Форма отправки сообщений <a href="https://formspree.io/" target="_blank">formspree.io</a> (беспл. 50 сообщ. в мес.)
+- Форма отправки сообщений и «Анкета будущего хозяина» <a href="https://formspree.io/" target="_blank">formspree.io</a> (беспл. 50 сообщ. в мес.)
 - Расширенные возможности плавности <a href="https://gsgd.co.uk/sandbox/jquery/easing/" target="_blank">jQuery Easing Plugin</a>
 - Числовая анимация при прокрутке <a href="https://demo.tinywall.net/numscroller/" target="_blank">NumScroller</a>
