@@ -61,7 +61,8 @@
       <link rel="alternate stylesheet" type="text/css" href="styles/colors4.css" title="colors4" media="all">
 	   <link rel="alternate stylesheet" type="text/css" href="styles/colors5.css" title="colors5" media="all">
 	
-		   <!-- Global site tag (gtag.js) - Google Analytics -->
+		   <!-- reCAPTCHA - Google -->
+	 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
    </head>
    <!-- ==== body starts ==== -->
    <body id="top">
@@ -227,6 +228,9 @@
    <div id="elements" class="content-box container">
       <!-- section -->
       <section class="inside-wrapper container">
+
+<a href="#anketa"><div class="p-3 mb-2 bg-success text-white">ЗАПОЛНИТЕ, ПОЖАЛУЙСТА, «АНКЕТУ БУДУЩЕГО ХОЗЯИНА»</div></a>
+
 <!-- ornament -->
 <div class="ornament-radost-2" data-aos="fade-left" data-aos-delay="300"></div>
 
@@ -451,7 +455,106 @@
 
       </section>
       <!-- /section ends-->
-	  
+
+	        <!-- section -->
+      <section class="inside-wrapper container pt-0 mt-3" data-aos="zoom-out-right" data-aos-delay="100">
+         <a name="anketa"></a>
+		 <div class="col-xl-8 offset-xl-2">
+            <h3 class="text-center mb-5">Анкета будущего хозяина</h3>
+            <!-- contact info -->
+            <div class="contact-info">
+               <!-- Form Starts -->
+               <div id="contact_form">
+                  
+				  <form id="my-form" action="https://formspree.io/f/xeqbgjlz" method="POST">
+				  
+				  <div class="form-group">
+					 <!-- row -->
+                     <div class="row mt-2">
+                        <div class="col-md-12 mt-2">
+                           <label>Вид и кличка выбранного животного <span class="required">*</span></label>
+                           <input type="text" name="Вид и кличка животного" class="form-control input-field" required="">  
+                        </div>
+						<div class="col-md-12 mt-2">
+                           <label>ФИО будущего хозяина, возраст <span class="required">*</span></label>
+                           <input type="text" name="ФИО будущего хозяина, возраст" class="form-control input-field" required="">  
+                        </div>
+						<div class="col-md-12 mt-2">
+                           <label>Адрес и контактный телефон будущего хозяина <span class="required">*</span></label>
+                           <input type="text" name="Адрес и контактный телефон" class="form-control input-field" required="">  
+                        </div>
+						<div class="col-md-12 mt-2">
+                           <label>Состав семьи (живёте с родителями? вдвоём с супругом(ой)? есть ли дети? какого возраста?)</label>
+                           <input type="text" name="Состав семьи" class="form-control input-field"> 
+                        </div>
+						<div class="col-md-12 mt-2">
+                           <label>Условия проживания (квартира/частный дом; собственное/съёмное жильё)</label>
+                           <input type="text" name="Условия проживания" class="form-control input-field"> 
+                        </div>
+						<div class="col-md-12 mt-2">
+                           <label>Где будет жить животное? (в доме, в вольере, в будке)</label>
+                           <input type="text" name="Где будет жить животное" class="form-control input-field"> 
+                        </div>
+						<div class="col-md-12 mt-2">
+                           <label>Есть ли другие животные в доме? Если есть, то какие?</label>
+                           <input type="text" name="Другие животные в доме" class="form-control input-field"> 
+                        </div>
+						<div class="col-md-12 mt-2">
+                           <label>Почему Вы хотите взять животное именно из приюта?</label>
+                           <input type="text" name="Почему животное именно из приюта" class="form-control input-field"> 
+                        </div>
+						<div class="col-md-12 mt-2">
+                           <label>Все ли члены Вашей семьи 100-процентно поддерживают Вас в желании взять собаку/кошку?</label>
+                           <input type="text" name="Поддержка членов семьи" class="form-control input-field"> 
+                        </div>
+						<div class="col-md-12 mt-2">
+                           <label>Была ли у Вас когда-либо аллергия (на пыль, шерсть, цветение, фрукты)?</label>
+                           <input type="text" name="Была ли аллергия" class="form-control input-field"> 
+                        </div>
+						<div class="col-md-12 mt-2">
+                           <label>Что Вы планируете делать, если после появления животного в доме, у Вас или у других членов семьи обнаружится аллергия?</label>
+                           <input type="text" name="Действия, если обнаружится аллергия" class="form-control input-field"> 
+                        </div>
+						<div class="col-md-12 mt-2">
+                           <label>С кем Вы планируете оставлять животное на время отпуска/командировки?</label>
+                           <input type="text" name="Где будет животное на время отпуска/командировки" class="form-control input-field"> 
+                        </div>
+						<div class="col-md-12 mt-2">
+                           <label>Чем планируете кормить животное?</label>
+                           <input type="text" name="Кормление животного" class="form-control input-field"> 
+                        </div>
+						<div class="col-md-12 mt-2">
+                           <label>Будете ли Вы кастрировать (стерилизовать) своё животное?</label>
+                           <input type="text" name="Кастрирование (стерилизация)" class="form-control input-field"> 
+                        </div>
+						<div class="col-md-12 mt-2">
+                           <label>Готовы ли Вы посещать ветеринара в случае болезни и делать ежегодные прививки?</label>
+                           <input type="text" name="Ветеринарные мероприятия" class="form-control input-field"> 
+                        </div>
+						<div class="col-md-12 mt-2">
+                           <label>Вы готовы поддерживать контакт с представителем приюта? (укажите способ связи)</label>
+                           <input type="text" name="Поддержка контакта (способ связи)" class="form-control input-field"> 
+                        </div>
+                     </div>
+					 <br>
+					 <div class="g-recaptcha" data-sitekey="6LfdKrQnAAAAAG3l0Vr31xJHGJA9N6x7cbziXe1_"></div> <!-- replace with your recaptcha SITE key not secret key -->
+                     <!-- /row -->
+                     <button type="submit" id="submit_btn" value="Submit" class="btn btn-primary">Отправить</button>
+					 
+					 <p id="my-form-status"></p>
+                     </form>
+					 
+                  </div>
+                  <!-- Contact results -->
+                  <div id="contact_results"></div>
+               </div>
+               <!-- /contact-form -->
+            </div>
+            <!-- /contact-info -->
+         </div>
+         <!-- /col-md- -->
+      </section>
+      <!-- /section ends-->
 
    </div>
    <!-- /content-box -->
@@ -475,6 +578,39 @@
 <script src="switcher/js/bootstrap-select.js"></script>
 <!-- All Scripts & Plugins -->
 <script src="switcher/js/dmss.js"></script>
+
+<script>
+    var form = document.getElementById("my-form");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        if (response.ok) {
+          status.innerHTML = "Спасибо за Вашу Анкету!";
+          form.reset()
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+            } else {
+              status.innerHTML = "Ой! Возникла проблема с отправкой Анкеты"
+            }
+          })
+        }
+      }).catch(error => {
+        status.innerHTML = "Ой! Возникла проблема с отправкой Анкеты"
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>
 
    </body>
 </html>
