@@ -1403,7 +1403,8 @@ background-size: contain;
      float: left;
 }
  .ornament-radost-2:after {
-     background: url("../img/ornaments/ornament-radost-2.png");
+     /* background: url("../img/ornaments/ornament-radost-2.png"); */
+     background: url("../img/ornaments/ornament-radost-eyes.png");
      content: "";
      position: absolute;
      margin-top: -135px;
@@ -1423,7 +1424,8 @@ background-size: contain;
      transform: translateX(-50%);
 }
  .ornament-cat-1:after {
-     background: url("../img/ornaments/ornament-cat-1.png");
+     /* background: url("../img/ornaments/ornament-cat-1.png"); */
+     background: url("../img/ornaments/ornament-cat-eyes.png");
      content: "";
      position: absolute;
      margin-top: -135px;
